@@ -1,0 +1,37 @@
+{
+  "database": "data/streamlit_data.sqlite",
+  "source_url": "https://stockanalysis.com/list/chinese-stocks-us/",
+  "reference_symbol": "TLT",
+  "ibkr_host": "127.0.0.1",
+  "ibkr_port": 7497,
+  "ibkr_client_id": 71,
+  "ibkr_history_years": 5,
+  "request_pause_seconds": 0.35,
+  "daily_windows": [
+    20,
+    60,
+    120
+  ],
+  "weekly_windows": [
+    13,
+    26,
+    52
+  ],
+  "monthly_windows": [
+    6,
+    12,
+    24
+  ],
+  "lags": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "daily_min_periods": 60,
+  "weekly_min_periods": 26,
+  "monthly_min_periods": 12
+}
